@@ -43,3 +43,6 @@ div.orange {
 	border: 2px solid black;
 	color: white;
 }
+.fail {
+	color: #e23636;
+}

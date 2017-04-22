@@ -82,7 +82,6 @@ $(document).ready(() => {
 				domString += `</div>`;
 			}
 		}
-		console.log(chosenCharacters);
 		$("#characters").append(domString);
 	};
 
@@ -132,6 +131,7 @@ $(document).ready(() => {
 
 		}).catch((dataFail) => {
 			console.log("failed loading", dataFail);
+			$("#characters").html(`<h3 class="fail">There was a problem with loading the characters!</h3>`);
 		});
 	};
 
