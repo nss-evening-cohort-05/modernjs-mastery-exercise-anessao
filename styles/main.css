@@ -1,1 +1,45 @@
 /*working css*/
+body {
+	background-color: #504a4a;
+}
+img#loading-img {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+img#logo {
+	width: 70px;
+}
+.Female {
+	border: 3px solid pink;
+}
+.Male {
+	border: 3px solid #518cca;
+}
+.panel {
+	background-color: #504a4a;
+	height: 400px;
+	border: 1px solid #f78f3f;
+}
+div.orange {
+	background-color: #f78f3f;
+}
+.description {
+	color: #e23636;
+	height: 130px;
+	overflow: scroll;
+	border: 1px solid white;
+	margin-top: 5px;
+	padding: 4px;
+}
+.characterImage {
+	border-radius: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn {
+	background-color: #518cca;
+	border: 2px solid black;
+	color: white;
+}
